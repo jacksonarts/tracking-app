@@ -16,6 +16,7 @@ body{
     display: inline-block;
     font-size: 16px;
     border-radius: 5px;
+    padding-left: 5%;
   }
   
   .content{
@@ -27,4 +28,9 @@ body{
     margin-right: 100px;
     margin-left: 100px;
     background-color: skyblue;
+  }
+
+  form{
+      padding: 2%;
+      justify-content: space-around;
   }
