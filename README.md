@@ -10,41 +10,18 @@ Use the following commands to start using this program :
 * `cd triangle-tracker`
 * `atom .`
 ##Behavior Driven Development
-* Below The program should return this when the input is not a number:
-** User inputs
-**Input Example**: a
+| Behaviour                |   Input Value      |  Output (Triangle) |
+|--------------------------|--------------------|--------------------|
+| All sides are equal      | 2,2,2              | Equilateral        |
+| Only twosides are equal  | 2,2,3              | Isosceles          |
+| None of the sides are    | 2,3,4              | Scalesne           |
+| equal                    |                    |                    |
+| Sum of either of the two |                    |                    |
+| sides are equal or less  | 2,2,4  (2+2=4)Equal|  Not a traiangle   |
+| than one of the three    | or                 |                    |
+|sides                     |   1,2,4   (2 +1=3) |                    |
+|                          |  less              |                    |
 
-**Output Example**: not triangle
-
-* The program should return this when the input is a negative value:
-
-**Input Example**: -1
-
-**Output Example**: not triangle
-
-* The program should return this when the sum of any two sides is less than or equal to the third side:
-
-**User Input Example**: first side = 1, second side = 1, third side = 3
-
-**Output Example**: not triangle
-
-* The program should return this when all sides are equal:
-
-**Input Example**: first side = 4, second side = 4, third side = 4
-
-**Output Example**: equilateral triangle
-
-* The program should return this when at most two sides are equal:
-
-**Input Example**: first side = 4, second side = 4, third side = 5
-
-**Output Example**:isosceles triangle
-
-* The program should return this when all sides are not equal:
-
-**Input Example**: first side = 4, second side = 5, third side = 6
-
-**Output Example**: scalene triangle
 
 
 ### License
