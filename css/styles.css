@@ -2,7 +2,8 @@ body{
 
     font-size: 25px;
     color: black;
-    background-image: url("tracker-app/imgs/triangle.jpeg")
+   
+    background-image:url("./imgs/triangle.jpg")
   }
   
   button{
