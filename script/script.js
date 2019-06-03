@@ -1,8 +1,8 @@
 function calculator(){
     // #this is my logic
-  var a= parseInt(document.getElementById("a").value);
-  var b= parseInt(document.getElementById("b").value);
-  var c= parseInt(document.getElementById("c").value);
+  var a= parseFloat(document.getElementById("a").value);
+  var b= parseFloat(document.getElementById("b").value);
+  var c= parseFloat(document.getElementById("c").value);
   
   // #my business logic/
   if(a===b && b===c && c===a){
