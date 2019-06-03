@@ -1,5 +1,5 @@
 # Triangle Tracker
-#### This is a project on triangle tracker website, 301st may 2019
+#### This is a project on triangle tracker website, 31st may 2019
 #### By **Francis kimari**
 ## Description
 The traiangle tracker project prompts user to input all the three dimensions of their choice and the website determines the type of triangle through an inbuilt business logic in its js file, thereby alerting user on type of the triangle.
